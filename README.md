@@ -1,4 +1,4 @@
-## Introduction
+## 概述
 
 ![Hands Free 开源机器人项目](/images/About/HandsFree_Project.jpg)
 
@@ -6,11 +6,11 @@ HandsFree 是一个面向机器人研究、开发的开源软硬件系统。她�
 
 ### HandsFree 2017   
 
-<iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=w0389v55en2&tiny=0&auto=0" allowfullscreen></iframe>
+<iframe frameborder="0" width="720" height="498" src="https://v.qq.com/iframe/player.html?vid=w0389v55en2&tiny=0&auto=0" allowfullscreen></iframe>
 
 ### 社区建设
 * [HandsFree Github](https://github.com/HANDS-FREE)   
-* [HandsFree Website](http://www.handsfree.org.cn/)    
+* [HandsFree Website](http://www.handsfree.org.cn/)   
 * 社区交流群: 521037187 (Hands Free Community)    
 * 联系邮箱： hands_free@126.com    
 
@@ -110,7 +110,7 @@ Stone 套餐 | 属性 | 价格(不带发票)
 直径(cm) | 38
 高度(cm) | 33.2（不加云台） 126.2（加云台）
 最大速度(m/s) | 1.6
-额定承载能力(kg) | 30 kg
+额定承载能力(kg) | 40 kg
 支持的传感器 | Rplidar A1/A2，Hokuyo URG-04L/UTM-30Lx，assusxtion，Kinect1/2)
 支持的设备 | HandFree arm，Dobot机械臂 1/2，HF云台，双目摄像头，单目高清摄像头
 支持的控制器 |  笔记本，TX1，TK1，RK3288，树莓派，pcduino

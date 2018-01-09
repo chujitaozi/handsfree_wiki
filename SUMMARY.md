@@ -2,11 +2,11 @@
 
 * [contribute](contribute.md)
 * [Introduction](README.md)
-* [About](docs/About/README.md)
-    * [HandsFree](docs/About/HandsFree.md)
+* [About](README.md)
     * [Project Overview](docs/About/Project-Overview.md)
     * [Why HandsFree](docs/About/Why-HandsFree.md)
     * [About US](docs/About/About-US.md)
+    * [Story And Wine](docs/About/Story-And-Wine.md)
 * [Products](docs/Products/README.md)
     * [Mini](docs/Products/Mini.md)
     * [Stone](docs/Products/Stone.md)

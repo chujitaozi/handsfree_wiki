@@ -1,4 +1,6 @@
-# 4.2 Stone
+本节介绍Stone机器人的相关参数及安装.
+
+# Stone机器人
 
 ![Alt text](/images/Mechanical/stone/wiki/stone_small_render.jpg)
 

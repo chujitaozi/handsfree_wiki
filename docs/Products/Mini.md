@@ -1,4 +1,7 @@
-# 4.1 Mini
+本节介绍Mini机器人的相关参数及安装.
+
+
+# Mini机器人
 
 ![Alt text](/images/Mechanical/mini/wiki/mini_small_render.jpg)
 

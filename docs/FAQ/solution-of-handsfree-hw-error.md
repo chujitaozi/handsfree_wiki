@@ -16,4 +16,5 @@
 由于版本差异等原因，固件烧写错误会导致通讯错误，出现timeout错误。
 **解决办法：**根据移动底盘的型号、OpenRe的版本和Hnads-Free ROS代码的版本重新选择固件进行烧写。
 
-### 可能原因四：Ubuntu系统的问题
+### 可能原因四：没有改程序中的路径
+handsfree的源码clone下来之后，要去**handsfree/handsfree_hw/src/main.cpp**里面把**"/home/luyifan/handsfree_ws/src/handsfree/handsfree_hw/config.txt")**改成自己的电脑里面对应的路径，再重新编译。

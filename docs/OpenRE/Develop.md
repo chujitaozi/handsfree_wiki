@@ -6,21 +6,21 @@
 
 OpenRE的代码由底层到上层主要分为**底层接口函数库**、**常用外设驱动库**、**OS库**、**机器人对象的抽象库**、**第三方库的移植**等。  
 下面对每每类函数库做简单介绍。
-* 底层接口函数库
-      在官方固件库的基础上，将对GPIO、定时器、编码器、USART、CAN、IIC、SPI、ADC和PWM等底层资源的操作进一步进行封装。
-* 常用外设驱动库
-      根据官方固件库，对常用的外设提供驱动，例如电机控制、舵机控制、LCD屏幕驱动、GPS模块解码、航模遥控器的解码和IMU的数据处理等。
-* OS库  
-      开发的应用程序包含裸跑程序版本和有操作系统版本，该库包含ucos操作系统的相关文件。
-* 机器人对象的抽象库  
-      对移动底盘模型的抽象，包括差分底盘、4轮麦轮底盘和3轮全向轮底盘等。
-* 第三方库的移植
-      移植的第三方库，包括Dobot机械臂库，Eigen3和Matrix矩阵库。    
+* 底层接口函数库    
+  在官方固件库的基础上，将对GPIO、定时器、编码器、USART、CAN、IIC、SPI、ADC和PWM等底层资源的操作进一步进行封装。
+* 常用外设驱动库    
+  根据官方固件库，对常用的外设提供驱动，例如电机控制、舵机控制、LCD屏幕驱动、GPS模块解码、航模遥控器的解码和IMU的数据处理等。
+* OS库    
+  开发的应用程序包含裸跑程序版本和有操作系统版本，该库包含ucos操作系统的相关文件。
+* 机器人对象的抽象库     
+  对移动底盘模型的抽象，包括差分底盘、4轮麦轮底盘和3轮全向轮底盘等。
+* 第三方库的移植     
+  移植的第三方库，包括Dobot机械臂库，Eigen3和Matrix矩阵库。    
       
 ### 第三方主控的移植
-OpenRE是一个开源机器人嵌入式系统。为了让更多的机器人爱好者能够使用到它，我们在这里推出将OpenRE移植到第三方主控（非HANDSFREE出品主控）的教程。
+OpenRE是一个开源机器人嵌入式系统。为了让更多的机器人爱好者能够使用到它，我们在这里推出将OpenRE移植到第三方主控（非HandsFree出品的主控）的教程。
 
-很多机器人爱好者在接触到OpenRE的时候会有这样的疑问，我有自己的机器人，我有自己的嵌入式主控，可是我想用OpenRE进行开发，我该怎么办呢？关于这个问题，首先，我们要将OpenRE移植到你自己的主控上去，当一切调试顺利之后，参照教程 *4.3基于OpenRE和HandsFree主控编写机器人程序* ，即可让OpenRE运行在自己的机器人上。
+很多机器人爱好者在接触到OpenRE的时候会有这样的疑问，我有自己的机器人，我有自己的嵌入式主控，可是我想用OpenRE进行开发，我该怎么办呢？关于这个问题，首先，我们要将OpenRE移植到你自己的主控上去，当一切调试顺利之后，参照教程 *架构介绍——基于OpenRE和HandsFree主控编写机器人程序* ，即可让OpenRE运行在自己的机器人上。
 
 接下来，我们就开始第三方主控移植之旅。
 
@@ -64,35 +64,30 @@ OpenRE是一个开源机器人嵌入式系统。为了让更多的机器人爱�
 1. 新建一个control_unit_xxx.cpp（xxx是你的电路板的名称）。
 2. 仿照着现有的control_unit_v2.cpp将所有函数按照你的电路板的特性实现好。函数名不要变，要和board.h能对应起来。
 3. 修改board.mk，添加你的电路板的信息如下：
- >ifeq "$(strip $(BOARD_TYPE))" "control_unit_xxx"
 
- >DDEFS           += -DCONTROL_UNIT_XXX -DSTM32F10X
+```
+ifeq "$(strip $(BOARD_TYPE))" "control_unit_xxx"
+DDEFS           += -DCONTROL_UNIT_XXX -DSTM32F10X
+DDEFS           += -DHSE_VALUE=8000000 -DUSE_STDPERIPH_DRIVER
+MCU             ?= cortex-m3
+CPU_TYPE        ?= STM32F1
+BOARD_ABSTRACT += $(TOP_PATH)/1_Processor/BoardAbstract/control_unit_xxx.cpp
+endif
+```
 
- >DDEFS           += -DHSE_VALUE=8000000 -DUSE_STDPERIPH_DRIVER
-
- >MCU             ?= cortex-m3
-
- >CPU_TYPE        ?= STM32F1
-
- >BOARD_ABSTRACT += $(TOP_PATH)/1_Processor/BoardAbstract/control_unit_xxx.cpp
-
- >endif
  *其中的，MCU、CPU_TYPE和“-DSTM32F10X”需要根据你使用的芯片情况改动。*
 
 4. 在system_para.mk文件里添加你的电路板的硬件资源分配信息：
- >ifeq "$(strip $(BOARD_TYPE))" "control_unit_xxx"  
 
- >DEBUG_PRINTF_INTERFACE ?= usart_interface_4
-
- >PC_INTERFACE ?= usart_interface_1
-
- >RADIO_INTERFACE ?= usart_interface_4
-
- >endif
-
+```
+ifeq "$(strip $(BOARD_TYPE))" "control_unit_xxx"  
+DEBUG_PRINTF_INTERFACE ?= usart_interface_4
+PC_INTERFACE ?= usart_interface_1
+RADIO_INTERFACE ?= usart_interface_4
+endif
+```
  *三个参数分别是，debug通信口、pc端和主控通信口、遥控器通信口。你只需要根据自己电路板的硬件资源分配来填写就好。*
-5. 在工程文件夹的Makefile里面修改第一行：
- >BOARD_TYPE		?= control_unit_xxx
+5. 在工程文件夹的Makefile里面修改第一行：BOARD_TYPE		?= control_unit_xxx
 
 ### 重要功能包讲解
 在本小结，我们将单独拎出几个比较重要的软件功能包做一个比较细致的讲解，方便大家了解并学习一些重要功能的实现方法。

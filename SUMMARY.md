@@ -46,4 +46,5 @@
     * [机器人学习规划](docs/Courses/Robotics-Learning.md)
 * [常见问题解决方法](docs/FAQ/README.md)
     * [把电路板USB插坏了怎么办？](docs/FAQ/when-usb-was-broken.md)
+    * [如何获取工控机IP地址？](docs/FAQ/how-to-get-IP.md)
 

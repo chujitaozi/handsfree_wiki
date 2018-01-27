@@ -1,8 +1,8 @@
-本部分介绍了从收货到让机器人动起来,还可以参考我们的[视频教程](www.baidu.com)   
+本部分介绍了从收货到让机器人动起来,还可以参考我们的[视频教程](https://www.baidu.com)   
 主要包括下面两部分:
 
-* [开箱组装](docs/UnBox/assemble_robot.md)
-* [简单使用](docs/UnBox/move_with_xbox.md)
+* [开箱组装](/docs/UnBox/assemble_robot.md)
+* [简单使用](/docs/UnBox/move_with_xbox.md)
 
 ### 产品组装
 

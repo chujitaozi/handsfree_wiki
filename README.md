@@ -63,14 +63,7 @@ HandsFree 是一个面向机器人研究、开发的开源软硬件系统。她�
 通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1 
 支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx，Xtion1/2，Kinect1/2，TK1，树莓派
 
-### 套餐价格　　　　　　　　　　　　　　　
 
-Mini 套餐 | 属性 | 价格(不带发票)
------|-----|-----
-<br>基础版|1. 机械结构<br>2. 控制电路，驱动电路，配套开发调试硬件，电池套装x1<br>3. 技术手册，社区支持，技术交流和指导 (不提供免费教学培训)|<br>1999 RMB
-导航开发版(推荐)|1. 基础版全部内容<br>2. 赛扬处理器工控机，rplidar a1(激光雷达)|4199 RMB
-<br>视觉开发版|1. 导航开发版全部内容<br>2. 华硕Xtion2摄像头|<br>6199 RMB
-<br>定制版|1. 量大可定制<br>2. 任选可支持的传感器，设备，控制器<br>3. 可定制相关服务，如系统配置，**RoboCup比赛指导**<br>4. *定制 导航/任务执行/人脸识别/目标识别/跟踪/机械臂抓取 等功能*|<br> ¥¥¥¥¥ RMB
 
 ### [点击购买 Mini](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-13224047689.15.1ca8e435HCtjBj&id=551101819610)　　  　　　　　　　　[Mini 详细信息](/docs/Products/Mini.md) 
 
@@ -98,18 +91,7 @@ Mini 套餐 | 属性 | 价格(不带发票)
 通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1 
 支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2
 
-### 套餐价格　
 
-Stone 套餐 | 属性 | 价格(不带发票)
------|-----|-----
-<br>基础版|1. 机械结构(包含云台支杆和云台)<br>2. 控制电路，驱动电路，配套开发调试硬件，电池套装x1<br>3. 技术手册，社区支持，技术交流和指导 (不提供免费教学培训)|<br>3999 RMB
-导航低配版|1. 基础版全部内容<br>2. 六代双核酷睿i3工控机，rplidar a1(激光雷达)|6599 RMB
-导航中配版|1. 基础版全部内容<br>2. 七代双核酷睿i7工控机，rplidar a1(激光雷达)|8199 RMB
-导航高配版|1. 基础版全部内容<br>2. 七代双核酷睿i7工控机，rplidar a2(激光雷达)|9999 RMB
-<br>视觉低配版|1. 导航低配版全部内容<br>2. 华硕Xtion2摄像头|<br>8599 RMB
-<br>视觉中配版(推荐)|1. 导航中配版全部内容<br>2. 华硕Xtion2摄像头|<br>10199 RMB
-<br>视觉高配版|1. 导航高配版全部内容<br>2. 华硕Xtion2摄像头|<br>11999 RMB
-<br>定制版|1. 量大可定制<br>2. 任选可支持的传感器，设备，控制器<br>3. 可定制相关服务，如系统配置，**RoboCup比赛指导**<br>4. *定制 导航/任务执行/人脸识别/目标识别/跟踪/机械臂抓取 等功能*|<br> ¥¥¥¥¥ RMB
 
 ### [点击购买 Stone](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-13224047684.13.1bb37efbrJ1Dfz&id=551103715089)　　  　　　　　　　　[Stone 详细信息](/docs/Products/Stone.md) 
 
@@ -137,16 +119,7 @@ Stone 套餐 | 属性 | 价格(不带发票)
 通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1
 支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2 , HandsFree机械臂
 
-### 套餐价格　购买
 
-Giraffe 套餐 | 属性 | 价格(不带发票)
------|-----|-----
-<br>基础版|1. 机械结构(底盘 + 云台，不含机械臂)<br>2. 控制电路，驱动电路，开发调试硬件，电池套装x1<br>3. 技术手册，社区支持，技术交流和指导(不提供免费教学培训)|<br>9999 RMB
-<br>视觉低配版|1. 基础版全部内容<br>2. 七代双核酷睿i7工控机<br>3. rplidar a2(激光雷达)<br>4. 华硕Xtion2摄像头|<br>17999 RMB
-<br>视觉中配版(推荐)|1. 基础版全部内容<br>2. 七代四核酷睿i5HQ + SSD + GTX1060工控机<br>3. rplidar a2(激光雷达)<br>4. 华硕Xtion2摄像头|<br>22999 RMB
-<br>视觉高配版|1. 基础版全部内容<br>2. 七代四核酷睿i5HQ + SSD + GTX1060工控机<br>3. Hokuyo UTM-30Lx(激光雷达)<br>4. 华硕Xtion2摄像头<br>5. 可提供RobotCup，RoboMasters等比赛的指导|<br>67999 RMB
-<br>定制版|1. 任选可支持的传感器，设备，控制器<br>2. 可定制相关服务，如系统配置，**RoboCup比赛指导**<br>3. *定制 导航/任务执行/人脸识别/目标识别/跟踪/机械臂抓取 等功能*|<br> ¥¥¥¥¥ RMB
-定制机械臂|1. HandsFree 机械臂|100000 RMB
 
 ### [点击购买 Giraffe](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-13224047689.15.2bba683f0Wd2um&id=556483991125)　　  　　　　　 　[Giraffe 详细信息](/docs/Products/Giraffe.md) 
 

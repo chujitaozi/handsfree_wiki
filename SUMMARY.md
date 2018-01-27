@@ -48,4 +48,6 @@
     * [把电路板USB插坏了怎么办？](docs/FAQ/when-usb-was-broken.md)
     * [如何获取工控机IP地址？](docs/FAQ/how-to-get-IP.md)
     * [roslaunch handsfree_hw handsfree_hw出现错误](docs/FAQ/solution-of-handsfree-hw-error.md)
+    * [OpenRE编译和烧录报错](docs/FAQ/OpenRE-make&make-burn-error.md)
+    * [机器人滴滴报警怎么办](docs/FAQ/reason-for-alarming.md)
 

@@ -12,6 +12,9 @@
     * [Stone机器人](docs/Products/Stone.md)
     * [Giraffe机器人](docs/Products/Giraffe.md)
     * [和Turtlebot的对比](docs/Products/Comparison.md)
+* [销售](docs/Sale/README.md)
+    * [接单事宜](docs/Sale/how-to-take-orders.md)
+    * [发货内容](docs/Sale/how-to-ship.md)
 * [开箱](docs/UnBox/README.md)
     * [产品组装](docs/UnBox/assemble_robot.md)
     * [简单使用](docs/UnBox/move_with_xbox.md)
@@ -24,8 +27,8 @@
     * [视觉实验](docs/Tutorial/2.3-Vision-Test.md)
     * [云台跟踪实验](docs/Tutorial/2.5-Head-Tracking.md)
     * [仿真实验](docs/Tutorial/2.4-Simulation.md)
-    * [RGBDSLAM v2实验](docs/Tutorial/2.4-Simulation.md)
-    * [ORB_SLAM2 实验](docs/Tutorial/2.4-Simulation.md)
+    * [RGBDSLAM v2实验](docs/Tutorial/RGBDSLAMV2.md)
+    * [ORB_SLAM2 实验](docs/Tutorial/ORBSLAM2.md)
 * [进阶教程](docs/Tutorial/Advanced/README.md)
     * [行为树](docs/Tutorial/Advanced/Behavior-tree/README.md)
     * [目标识别](docs/Tutorial/Advanced/Object-Recognition/README.md)
@@ -46,8 +49,12 @@
     * [机器人学习规划](docs/Courses/Robotics-Learning.md)
 * [常见问题解决方法](docs/FAQ/README.md)
     * [把电路板USB插坏了怎么办？](docs/FAQ/when-usb-was-broken.md)
+<<<<<<< HEAD
     * [如何获取工控机IP地址？](docs/FAQ/how-to-get-IP.md)
     * [roslaunch handsfree_hw handsfree_hw出现错误](docs/FAQ/solution-of-handsfree-hw-error.md)
     * [OpenRE编译和烧录报错](docs/FAQ/OpenRE-make&make-burn-error.md)
     * [机器人滴滴报警怎么办](docs/FAQ/reason-for-alarming.md)
+=======
+    * [机器人安装详细步骤](docs/FAQ/Assemble_details.md)
+>>>>>>> taozi/master
 

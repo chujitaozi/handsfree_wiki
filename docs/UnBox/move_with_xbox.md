@@ -30,7 +30,7 @@
 可能是ttyUSB0被占用.注意在使用此教程时,开机时,雷达先不用插在工控机上,开机启动识别不出两者区别.如果开机时,不小心插上了雷达.解决方法有两种:
 
 * 如果有屏幕的话,连接屏幕与工控机,登录到系统(密码:666),打开终端执行下面的命令
->sudo service robot stop
+>sudo service robot stop   
 >sudo service robot start
 
 * 如果不太方便连接屏幕,拔掉雷达后重启一次.

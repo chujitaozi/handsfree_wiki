@@ -47,4 +47,5 @@
 * [常见问题解决方法](docs/FAQ/README.md)
     * [把电路板USB插坏了怎么办？](docs/FAQ/when-usb-was-broken.md)
     * [机器人安装详细步骤](docs/FAQ/Assemble_details.md)
+    * [如何配置环境](docs/FAQ/environment_config.md)
 

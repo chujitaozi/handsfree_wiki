@@ -8,6 +8,8 @@ HandsFree 在中型及以上的移动平台上采用集成化的供电方案，�
 
 ![Power_Manager](/images/Hardware/HandsFree_Power_Manager/Power_Manager.jpg)
 
+![Power_Supply](/images/Hardware/HandsFree_Power_Manager/Power_Supply.jpg)
+
 ### 板载资源
 
 1. 电源电压 12V ～ 36V

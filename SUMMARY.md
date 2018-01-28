@@ -39,7 +39,7 @@
     * [HFLink通信协议](docs/OpenRE/HFLink.md)
 * [附录二:硬件](docs/Hardware/README.md)
     * [设备和传感器](docs/Hardware/Devices-Sensors.md)
-    * [主控制器](docs/Hardware/Control-Unit.md)
+    * [主控制器](docs/Hardware/OpenRE-Board.md)
     * [电源管理系统](docs/Hardware/Power-Manager.md)
     * [电路模块](docs/Hardware/Module.md)
 * [附录三:机器人课程](docs/Courses/README.md)

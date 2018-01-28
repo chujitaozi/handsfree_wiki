@@ -3,30 +3,31 @@
 ## 参数汇总
 
 | 参数类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
-| :------|-----:| -----:|-------:|----------:|-----------------:|-----------------:|
-| 高度(cm)       | 20.4/33.3     | 33.2/120 | 33.2/130| 12.48 | 19.2 | 14.1 |
-| 重量(kg)       | 1.5  | 4  | 12 | 5 | 1 | 1.8 |
-| 直径(cm)       | 23   | 36 | 38 | 35.15 | 14/18 | 28/30.6 |
+| :------:|:-----:| :-----:|:-------:|:----------:|:-----------------:|:-----------------:|
+| 高度(cm)       | 20.4/34.0     | 33.2/108 | 33.2/120| 12.48 | 19.2 | 14.1 |
+| 重量(kg)       | 2  | 8  | 15 | 5 | 1 | 1.8 |
+| 直径(cm)       | 2.3   | 40 | 42，38 | 35.15 | 14，18 | 28，30.6 |
 | 最大速度(m/s)   | 1.2 | 1.2 | 1.6 | 0.7 | 0.22 | 0.26  |
-| 额定承载能力(kg) | 6  |  15 | 40  | 5  | 15 | 30 |
+| 额定承载能力(kg) | 6  |  15 | 50  | 5  | 15 | 30 |
 | 主控板类型      |  玩家级主控  | 专业级别主控(丰富的接口和资源) 　| 同左  |  未知  |  玩家级主控 | 玩家级主控 |
 | 是否涵盖电源管理 |   有    |  有   | 有   | 未知   | 无   | 无  |
-| 电源接口        |  12V/10A <br> 5V/3A  |  12V/10A 5V/3A <br> 19V/5A   |  24V/20A 12V/5A <br> 5V/3A 19V/5A | 12V/5A 12V/1.5A <br>5V/1A  | 3.3V/0.8A 5V/4A <br> 12V/1A   | 3.3V/0.8A 5V/4A <br> 12V/1A  |
-| 支持外接设备    |  TX1,TK1,MiniPC <br> 树莓派,Kinect <br> 雷达等  |   同 Mini <br> 支持笔记本    | 同 Mini <br> 支持笔记本  | 参考上述接口   |  参考上述接口  | 参考上述接口  |
-| 电源电压和容量　|  12v/7800mAh    |  12v/7800mAh   |  24v/7800mAh  | 12v/2200mAh　<br>　/4400mAh   |  12v/1800mAh  | 12v/1800mAh |
-| 是否支持ROS     |   支持    |  支持   | 支持   | 支持   | 支持   | 支持  |
+| 电源扩展        |  12V/3A x 2 , USB5V/2A x 2  |  19V/3A x 3 , 12V/10A x 5 , 12V/3A x 4 , USB5V/2A x 2 , 一路急停12V/10A   |  24V/20A 12V/5A <br> 5V/3A 19V/5A | 12V/5A 12V/1.5A <br>5V/1A  | 3.3V/0.8A 5V/4A <br> 12V/1A   | 3.3V/0.8A 5V/4A <br> 12V/1A  |
+| 支持外接设备    |  RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx，Xtion1/2，Kinect1/2，TK1，树莓派  |   RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2    | Stone支持设备，及HandsFree机械臂  | 参考上述电源接口   |  同左  | 同左  |
+| 电源电压和容量　|  12v/5200mAh    |  12V 16000mAh   |  24V 20000mAh  | 12v/2200mAh　<br>　/4400mAh   |  12v/1800mAh  | 12v/1800mAh |
+| 续航时间（h）     |   8    |  12   | 12   | ？   | 2.5   | 2  |
+| 续航时间（h）     |   5    |  5  | 6  | ？   | 2.5   | 2.5  |
 | 结构合理程度 |  低端   |  中端   | 高端   | 中端   | 低端   | 低端  |
 | 教程体系 |　 有   |  有  | 有  | 有  | 有  | 有  |
 | 下位机软件   |  专业机器人库OpenRE   | 同左 | 同左  | 未知 |  OpenCR  | 同左 |
-| 价格(RMB)    |   1899/4499/6699  |  3399/5799/8699  | 9999   |  11399  | 5500  |  15500 |
+| 价格(RMB)    |   1999/4199/6199  |  3999/6599/8599  | 9999/17999   |  11399  | 5500  |  15500 |
 
 说明:
 
 * Turtlebot2除价格外其他参数均为Kobuki移动底盘的参数.
 * Burger和Waffle是Turtlebot3系列平台
-* 高度一栏格式为:不加云台高度/加云台之后高度
+* 高度一栏格式为:不加云台(摄像头)高度/加云台之后高度
 * 价格一栏格式为:基础版/导航版/视觉开发版
-* Turtlebot3系列直径为:长,宽
+* 直径为:长,宽
 
 ---
 
@@ -39,16 +40,16 @@
  > HandsFree 是一个面向机器人研究、开发的开源软硬件系统。她有完备与科学的框架,以优秀的嵌入式系统框架为核心,精良的电路、机械设计为支撑,帮您快速实现多种形态的机器人。本系统包含机器人导航,SLAM,计算机视觉等模块,并拥有自己上层软件和调试系统。她支持国外其他的开源项目,如 ROS, MPRT, PIXHAWK 等,这一切都为您带来了无比的便捷和快乐!    
  
  HandsFree现在主推三款机器人分别是Mini,Stone,Giraffe,分别面向不同需求.简介如下:    
-1,[Mini](http://wiki.handsfree.org.cn/docs/Products/Mini.html)是一款采用前万向后双驱动轮底盘布局的小型机器人。其整机结构采用平板桁架式透明化设计，外形简约大方，能支持多种激光雷达，TK1、树莓派等主流控制器，可搭载assustion、Kinect1 、Kinect2等深度摄像头。Mini体型小、功能强大、性价比高，非常适合入门者开发研究和多机集群应用研究。效果如图:
+1,[Mini](/docs/Products/Mini.md)是一款采用前万向后双驱动轮底盘布局的小型机器人。其整机结构采用平板桁架式透明化设计，外形简约大方，能支持多种激光雷达，TK1、树莓派等主流控制器，可搭载assustion、Kinect1 、Kinect2等深度摄像头。Mini体型小、功能强大、性价比高，非常适合入门者开发研究和多机集群应用研究。效果如图:
 
 ![Mini](/images/Products/m_2.jpg)
 
 
-2,[Stone](http://wiki.handsfree.org.cn/docs/Products/Stone.html)是一款采用前万向后双驱动轮底盘布局的智能车平台。其整机结构采用平板桁架式透明化设计，外形简单又不失机械美感。Stone可搭载Dobot1、Dobot m1等小型机械臂，能支持多种激光雷达，TX1、TK1、树莓派等主流控制器。其配备高度可调的两轴云台，兼容多款RGBD摄像头和单、双目摄像头。效果如图: 
+2,[Stone](/docs/Products/Stone.md)是一款采用前万向后双驱动轮底盘布局的智能车平台。其整机结构采用平板桁架式透明化设计，外形简单又不失机械美感。Stone可搭载Dobot1、Dobot m1等小型机械臂，能支持多种激光雷达，TX1、TK1、树莓派等主流控制器。其配备高度可调的两轴云台，兼容多款RGBD摄像头和单、双目摄像头。效果如图: 
 
 ![Stone](/images/Products/s_2.jpg)
 
-3,[Giraffe](http://wiki.handsfree.org.cn/docs/Products/Giraffe.html)是一款采用前万向后双驱动轮底盘布局的智能车平台。其整机结构采用平板桁架式封闭式设计；侧板采用带磁吸可开合设计；传动系统采用同步带传动。Giraffe可同时支持一前一后两个激光雷达，兼容TX1、TK1、树莓派等主流控制器，配备高度可调、能兼容多款RGBD摄像头和单、双目摄像头的两轴云台。Giraffe可搭载HF Arm1等中型机械臂（总量15Kg左右），具有高达40Kg的承载能力。效果如图:
+3,[Giraffe](/docs/Products/Giraffe.md)是一款采用前万向后双驱动轮底盘布局的智能车平台。其整机结构采用平板桁架式封闭式设计；侧板采用带磁吸可开合设计；传动系统采用同步带传动。Giraffe可同时支持一前一后两个激光雷达，兼容TX1、TK1、树莓派等主流控制器，配备高度可调、能兼容多款RGBD摄像头和单、双目摄像头的两轴云台。Giraffe可搭载HF Arm1等中型机械臂（总量15Kg左右），具有高达40Kg的承载能力。效果如图:
 
 ![Giraffe](/images/Products/g_1.jpg)
 
@@ -78,15 +79,16 @@
 
 ### 2.1.1 参数差异
 
-机械方面,HandsFree有三款机器人,小型的Mini到大机器人Giraffe,不同规格满足不同需求.Turtlebot方面第二代产品与我们的中型产品Stone大小类似,第三代产品结构设计的不太合理，如果客户不手动加高，那么实际用起来效果和与Mini类似，下面是对比:
+机械方面,HandsFree有三款机器人,小型的Mini到大机器人Giraffe,不同规格满足不同需求.Turtlebot方面第二代产品与我们的中型产品Stone大小类似,第三代产品结构设计的不太合理，如果客户不手动加高，那么实际用起来效果和与Mini类似，下面是对比:   
 
-| 类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
-| :------|-----:| -----:|-------:|----------:|-----------------:|-----------------:|
-| 高度(cm)       | 20.4/33.3     | 33.2/120 | 33.2/130| 12.48 | 19.2 | 14.1 |
-| 重量(kg)       | 1.5  | 4  | 12 | 5 | 1 | 1.8 |
-| 直径(cm)       | 23   | 36 | 38 | 35.15 | 14/18 | 28/30.6 |
+
+| 参数类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
+| :------:|:-----:| :-----:|:-------:|:----------:|:-----------------:|:-----------------:|
+| 高度(cm)       | 20.4/34.0     | 33.2/108 | 33.2/120| 12.48 | 19.2 | 14.1 |
+| 重量(kg)       | 2  | 8  | 15 | 5 | 1 | 1.8 |
+| 直径(cm)       | 2.3   | 40 | 42，38 | 35.15 | 14，18 | 28，30.6 |
 | 最大速度(m/s)   | 1.2 | 1.2 | 1.6 | 0.7 | 0.22 | 0.26  |
-| 额定承载能力(kg) | 6  |  15 | 40  | 5  | 15 | 30 |
+| 额定承载能力(kg) | 6  |  15 | 50  | 5  | 15 | 30 |
 
 说明,高度一栏中HandsFree机器人的两个高度分别为加云台和不加云台,Turtlebot3系列直径为长乘宽.
 
@@ -103,7 +105,7 @@
 
 ### 2.2.1 参数介绍 
 
-HandsFree中Mini用的控制器是[HandsFree mini ControlUnit](http://wiki.handsfree.org.cn/docs/Hardware/Control-Unit.html),另外两款使用的是[HandsFree Control Unit V2](http://wiki.handsfree.org.cn/docs/Hardware/Control-Unit.html),这两款软硬件全部开源.Turtlebot2底盘控制是个黑箱子,既不能自己拓展应用又不能自主开发,很赚钱,毕竟人家是专业的靠这个吃饭的,做出来的控制效果和里程计的精确度可能会比较高,但是没有参数,我们并不能进行比较,但是Turtlebot3是全部开源的,我们可以拿来比较一下．
+HandsFree中Mini用的控制器是[HandsFree mini ControlUnit](/docs/Hardware/Control-Unit.md),另外两款使用的是[HandsFree Control Unit V2](/docs/Hardware/Control-Unit.md),这两款软硬件全部开源.Turtlebot2底盘控制是个黑箱子,既不能自己拓展应用又不能自主开发,很赚钱,毕竟人家是专业的靠这个吃饭的,做出来的控制效果和里程计的精确度可能会比较高,但是没有参数,我们并不能进行比较,但是Turtlebot3是全部开源的,我们可以拿来比较一下．
 
 从下面的比较可以看出，Turtlebot3的控制器也就是用了一片stm32F7，其它的整体来看，板子还是挺低端的，接口也是各种排针，不适合专业的机器人系统，和HandsFree ControlUnit_V2比起来还是差了许多． 
 
@@ -114,7 +116,7 @@ HandsFree Control Unit V2,主要特征:
 * USBTTL, USB，microSD卡。   
 * 支持机型： 两轮平衡车，两轮差移动平台，三轮全向平台，四轮差速平台，四轮麦克纳姆轮全向平台，数字舵机人形，固定翼，四六八轴旋翼飞行器等。   
 
-细节看下图,可以在[链接](http://wiki.handsfree.org.cn/docs/Hardware/Control-Unit.html)中查看更多细节.  
+细节看下图,可以在[链接](/docs/Hardware/Control-Unit.md)中查看更多细节.  
 
 ![Control Unit 参数](/images/Products/handsfree.jpg)
 
@@ -138,7 +140,7 @@ Turtlebot3使用的是基于STM32F7开发的Arduino开发板,MCU不错,板子整
 
 ### 2.3.1 参数介绍
 
-[Power Manager](http://wiki.handsfree.org.cn/docs/Hardware/Power-Manager.html) 是HandsFree 开源项目的硬件标准设计的一款电源分配板，附带多路开关和多种电源转换功能，满足机器人多样的电力需求。 支持常用的 TX1， TK1， MiniPC，树莓派， Kinect ，HOKUYOU 雷达等设备供电，同时还支持机器人的电机驱动， 云台舵机，机械臂等结构的供电，还自带一个急停开关接口和 一路急停电源输出。配合大容量电池可以为机器提供集成供电方案。
+[Power Manager](/docs/Hardware/Power-Manager.md) 是HandsFree 开源项目的硬件标准设计的一款电源分配板，附带多路开关和多种电源转换功能，满足机器人多样的电力需求。 支持常用的 TX1， TK1， MiniPC，树莓派， Kinect ，HOKUYOU 雷达等设备供电，同时还支持机器人的电机驱动， 云台舵机，机械臂等结构的供电，还自带一个急停开关接口和 一路急停电源输出。配合大容量电池可以为机器提供集成供电方案。
 HandsFree移动平台上采用集成化的供电方案，这是为了简化机器人开发者对电源的设计同时方便开发者进行多种形式的开发。在电源板上有数量众多的电源接口，提供多种不同的电压，可以给各种形式的设备进行供电。同时我们定义了不同接口的所代表的不同电压，保证了不同的电压的设备和接口不能顺利连接在一起，从而保护设备。
 
 整个电源管理系统是HandsFree机器人的一个优点，这也是Turtlebot3所没有考虑到的．
@@ -148,12 +150,15 @@ HandsFree移动平台上采用集成化的供电方案，这是为了简化机�
 Turtlebot2移动底盘有对外的接口,内置电池,Turtlebot3也设置了对外接口.   
 下面是二者的对比:   
 
-| 类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
-| :------|-----:| -----:|-------:|----------:|-----------------:|-----------------:|
+
+| 参数类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
+| :------:|:-----:| :-----:|:-------:|:----------:|:-----------------:|:-----------------:|
 | 是否涵盖电源管理 |   有    |  有   | 有   | 未知   | 无   | 无  |
-| 电源接口        |  12V/10A <br> 5V/3A  |  12V/10A 5V/3A <br> 19V/5A   |  24V/20A 12V/5A <br> 5V/3A 19V/5A | 12V/5A 12V/1.5A <br>5V/1A  | 3.3V/0.8A 5V/4A <br> 12V/1A   | 3.3V/0.8A 5V/4A <br> 12V/1A  |
-| 支持外接设备    |  TX1,TK1,MiniPC <br> 树莓派,Kinect <br> 雷达等  |   同 Mini <br> 支持笔记本    | 同 Mini <br> 支持笔记本  | 参考上述接口   |  参考上述接口  | 参考上述接口  |
-| 电源电压和容量　|  12v/7800mAh    |  12v/7800mAh   |  24v/7800mAh  | 12v/2200mAh　<br>　/4400mAh   |  12v/1800mAh  | 12v/1800mAh |
+| 电源扩展        |  12V/3A x 2 , USB5V/2A x 2  |  19V/3A x 3 , 12V/10A x 5 , 12V/3A x 4 , USB5V/2A x 2 , 一路急停12V/10A   |  24V/20A 12V/5A <br> 5V/3A 19V/5A | 12V/5A 12V/1.5A <br>5V/1A  | 3.3V/0.8A 5V/4A <br> 12V/1A   | 3.3V/0.8A 5V/4A <br> 12V/1A  |
+| 支持外接设备    |  RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx，Xtion1/2，Kinect1/2，TK1，树莓派  |   RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2    | Stone支持设备，及HandsFree机械臂  | 参考上述电源接口   |  同左  | 同左  |
+| 电源电压和容量　|  12v/5200mAh    |  12V 16000mAh   |  24V 20000mAh  | 12v/2200mAh　<br>　/4400mAh   |  12v/1800mAh  | 12v/1800mAh |
+| 续航时间（h）     |   8    |  12   | 12   | ？   | 2.5   | 2  |
+| 续航时间（h）     |   5    |  5  | 6  | ？   | 2.5   | 2.5  |
 
 ### 2.3.2 说明分析
 
@@ -161,7 +166,7 @@ Turtlebot2移动底盘有对外的接口,内置电池,Turtlebot3也设置了对�
 
 ## 2.4 电机,驱动
 
-* [HandsFree Motor Drive V2](http://wiki.handsfree.org.cn/docs/Hardware/Motor-Driver.html) 是HandsFree Team根据Hands Free开源项目的标准开发的一款电机驱动器，是HandsFree开发的机器人Stone的硬件的组成部分之一。每块驱动板使用两块BTS7970芯片，可以驱动一个电机，保证足够大的驱动能力。同时能够将电源转接给其他驱动，极大的减少驱动电源线连接的复杂程度。   
+* [HandsFree Motor Drive V2](/docs/Hardware/Module.md) 是HandsFree Team根据Hands Free开源项目的标准开发的一款电机驱动器，是HandsFree开发的机器人Stone的硬件的组成部分之一。每块驱动板使用两块BTS7970芯片，可以驱动一个电机，保证足够大的驱动能力。同时能够将电源转接给其他驱动，极大的减少驱动电源线连接的复杂程度。   
 * Turtlebot2驱动电机均未知.Turtlebot3使用[Dynamixel X series](http://en.robotis.com/index/product.php?cate_code=10121110);Burger电机为DYNAMIXEL (XL430-W250-T),Waffle电机为DYNAMIXEL (XM430-W210-T).   
 
 感觉这方面半斤八两吧.
@@ -180,7 +185,7 @@ Turtlebot和HandsFree上层都是基于ROS进行开发,由于ROS的开源的性�
 
 Turtlebot2不是开源的,所以没有第二代的资料,也就是说第二代底层是不支持二次开发的.   
 Turtlebot3下位机软件为[OpenCR](http://turtlebot3.robotis.com/en/latest/opencr_software.html#),开发工具为Arduino的IDE. 具体代码没有研读,不过考虑到主控板上资源较少,就算进行二次开发也很受限制，Arduino的IDE相信用过的人也该吐槽了．
-HandsFree下位机软件为[OpenRE](http://wiki.handsfree.org.cn/docs/OpenRE/Home.html).
+HandsFree下位机软件为[OpenRE](/docs/OpenRE/Home.md).
 OpenRE全称Open Source Robot Embedded Library，是一个专门为机器人写的、基于STM32系列微处理器的嵌入式开源库。经过不断优化，开源库变得鲁棒和通用，从而独立于平台成为一个专门为机器人而生的一个嵌入式库。主要目的是搭建一个专门为机器人服务的嵌入式跨平台软件框架，涵盖底层设备驱动，算法库，通信与操作系统组件等，主要涵盖以下内容：
 
 OpenRE的代码由底层到上层主要分为**底层接口函数库**、**常用外设驱动库**、**OS库**、**机器人对象的抽象库**、**第三方库的移植**等。  
@@ -194,7 +199,7 @@ OpenRE的代码由底层到上层主要分为**底层接口函数库**、**常�
 OpenRE支持Windows 和 Linux开发环境，方便了机器人开发人对系统的需求，支持Linux环境下的makefile + QTCreator + armgcc来进行开发
 
 * 获取OpenRE源码： [OpenRE Github](https://github.com/HANDS-FREE/OpenRE) 
-* OpenRE开发教程：[HandsFree Wiki -- OpenRE](http://wiki.handsfree.org.cn/docs/OpenRE/)
+* OpenRE开发教程：[HandsFree Wiki -- OpenRE](/docs/OpenRE/Home.md)
 
  **总结**:　Turtlebot第三代开发受限制很多,总体来说不如HandsFree的开源的下位机软件.
  
@@ -204,9 +209,10 @@ OpenRE支持Windows 和 Linux开发环境，方便了机器人开发人对系统
 
 价格方面也是碾压趋势,HandsFree三款机器人分别对应不同群体,价格区间在2000-10000不止,套餐选择很人性化.Turtlebot系列,第三代价格在6500左右,第二代只要移动底盘就4500,更不要说上面要架设kinect和联网笔记本了.
 
-| 类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
-| ------------- |:-------------:| -----:|-------:|----------:|------:|---------:|
-| 价格(RMB)     |   1899/4499/6699  |  3399/5799/8699  | 9999   |  11399  | 5500  |  15500 |
+
+| 参数类型  	 | Mini | Stone |Giraffe |Turtlebot2 | Burger | Waffle |
+| :------:|:-----:| :-----:|:-------:|:----------:|:-----------------:|:-----------------:|
+| 价格(RMB)    |   1999/4199/6199  |  3999/6599/8599  | 9999/17999   |  11399  | 5500  |  15500 |
 
 说明: 价格一栏格式为:基础版/导航版/视觉开发版
 

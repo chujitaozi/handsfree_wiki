@@ -1,14 +1,21 @@
-## HandsFree ControlUnit（V2 & Mini）
+## HandsFree ControlUnit 使用手册
 
 HandsFree ControlUnit 是HandsFree Team根据HandsFree开源项目的硬件标准开发的一款的运动控制器，是HandsFree所有平台的重要组成部分，可以应用于轮式机器人，人形机器人，平衡车，旋翼和固定翼的开发。
 
-由于HandsFree建立了一个自己的机械，电路，嵌入式标准，所以ControlUnit 还会支持HandsFree Team后续开发的软硬件。你既可以用这款控制器进行自主开发，也可以使用HandsFree嵌入式软件库OpenRE来开发，OpenRE提供了足够多的底层驱动代码和机器人代码库，以及代码的使用手册和测试案例，而且所有源码都是以BSD协议开源的。
+由于HandsFree建立了一个自己的机械，电路，嵌入式标准，所以ControlUnit 还会支持HandsFree Team后续开发的软硬件。你既可以用这款控制器进行自主开发，也可以使用HandsFree嵌入式软件库OpenRE来开发，OpenRE提供了足够多的底层驱动代码和机器人代码库，以及代码的使用手册和测试案例，而且所有源码都是开源的。
 
-关于OpenRE请看： [OpenRE源码](https://github.com/HANDS-FREE/OpenRE)
+下载OpenRE源码： [OpenRE源码](https://github.com/HANDS-FREE/OpenRE)
+学习OpenRE： [OpenRE教程](/docs/OpenRE/README.md)
 
-### HandsFree ControlUnit V2使用手册
+## HandsFree ControlUnit V2使用手册
 
 HandsFree ControlUnit V2 控制器是在第一代主控基础上发展而来一款多用控制器，不仅仅可以用于控制小车等地面移动平台，也可以用于飞行器的控制，在吸取第一代主控的优点和不足的基础上进行改造，设计了自己的核心板，并且将众多传感器集成在核心板上，主控板支持7~12V的电源输入。
+
+### 专业级机器人控制器 CrontrolUnit_V2 
+![CrontrolUnit_V2](/images/Hardware/HandsFree_ControlUnit/CrontrolUnit_V2.jpg) 
+
+### 板载资源
+![CrontrolUnit_V2_Overview](/images/Hardware/HandsFree_ControlUnit/CrontrolUnit_V2_Overview.jpg) 
 
 ### 关键特征
 1.	168MHZ  STM32F407  Cortex M4
@@ -56,27 +63,33 @@ HandsFree ControlUnit V2 控制器是在第一代主控基础上发展而来一�
 15.	电源支持7~28V输入。
 
 ### 总结
-HandsFree控制器，板载资源十分丰富，下料十足，可满足常见形态机器人研究需求，同时不惜成本，尽量选择稳定可靠的接口和IC，光是一个ADC基准电压的芯片就十几块钱，MOLEX接口也是选用昂贵的自锁接口，这主要是因为HandsFree团队本身也是使用这款控制器进行研究开发的，所以在很多细节方面考虑也是为了满足自己需求。
+HandsFree控制器，板载资源十分丰富，下料十足，可满足常见形态机器人研究需求，同时不惜成本，尽量选择稳定可靠的接口和IC，光是一个ADC基准电压的芯片就十几块钱，MOLEX接口也是选用昂贵的自锁接口，这主要是因为HandsFree团队本身也是使用这款控制器进行研究开发的，在很多细节方面考虑也是为了满足自己需求。
 
-同时HandsFree团队为该控制器开发了OpenRE嵌入式机器人库，用户可以方便的在此库的基础上进行应用程序构建。而且OpenRE是还可以完全支持在linux环境下开发，这大大方便了ROS开发者和不懂嵌入式的机器人开发者。
+同时HandsFree团队开放了OpenRE嵌入式机器人库，用户可以方便的在此库的基础上进行应用程序构建。OpenRE支持在linux环境下的开发，大大方便了ROS开发者和不懂嵌入式的机器人开发者。
 
 ---
 
 ## HandsFree ControlUnit Mini使用手册
 
-ControlUnit Mini 是HandsFree Team根据HandsFree开源项目的硬件标准开发的一款的运动控制器，是HandsFree Mini移动平台的重要组成部分。HandsFree Mini移动平台是HandsFree团队专为广大机器人学生爱好者开发的一款助学平台，价格低廉，性价比超高。麻雀虽小五脏俱全，Mini移动平台同样可以用来进行移动导航和视觉开发。我们根据Mini移动平台的特点将驱动集成在Mini控制器上。同时增加了蓝牙模块和集成的MPU6050。其功能齐全性价比超高，配合方便使用的嵌入式代码受到广大学生用户的喜爱。
+ControlUnit Mini 是HandsFree Team根据HandsFree开源项目的硬件标准开发的一款的运动控制器，是HandsFree Mini移动平台的重要组成部分。Mini移动平台是HandsFree团队专为广大机器人学生爱好者开发的一款助学平台，价格低廉，性价比超高，麻雀虽小五脏俱全，Mini移动平台同样可以用来进行移动导航和视觉开发。我们根据Mini移动平台的特点将驱动集成在Mini控制器上。同时增加了蓝牙模块和集成的MPU6050。其功能齐全性价比超高，配合方便使用的嵌入式代码受到广大学生用户的喜爱。
 
 ControlUnit Mini 控制器支持12V电源输入，同时允许转接电源，带有两个12V电源转接口，允许转接到其他设备使用。Mini控制板上设置一个了电源开关，接通12V电源后按下开关主控器便开始工作，此时电源指示灯会变亮。控制板四周接有4个电机接口，两个串口，一个SPI接口，一个串口usb接口，一个SWD接口，一个can总线接口。同时控制板上集成了两块电机驱动（支持驱动四个电机），一块MPU6050，一个蓝牙，极大的方便了用户进行开发。
 
+### 高性价比机器人控制器 CrontrolUnit_Mini
+![CrontrolUnit_Mini](/images/Hardware/HandsFree_ControlUnit/CrontrolUnit_Mini.jpg) 
+
 ### 板载资源
-- STM32F103芯片
-- mpu6050加速计陀螺仪
-- 4路电机控制接口：支持HandsFree Team开发的电机驱动，可用于搭载HandsFree平衡车，HandsFree Mini移动平台。
-- 1路can总线：板载1个can接口，可用于通信，或者扩展hands free imu 高精度单轴陀螺仪
-- 1路spi接口
-- 1路双座USB母座接口：提供转接5V电源
-- 2路串口接口： usart4  uart5
-- 一个usb串口：采用ft232 usb 串口芯片  usart4，可usb线升级固件和通信
-- 1个swd程序烧写接口
-- 1个蓝牙
+![CrontrolUnit_Mini_Overview](/images/Hardware/HandsFree_ControlUnit/CrontrolUnit_Mini_Overview.jpg) 
+
+### 板载资源
+1. STM32F103芯片
+2. mpu6050加速计陀螺仪
+3. 4路电机控制接口：支持HandsFree Team开发的电机驱动，可用于搭载HandsFree平衡车，HandsFree Mini移动平台。
+4. 1路can总线：板载1个can接口，可用于通信，或者扩展hands free imu 高精度单轴陀螺仪
+5. 1路spi接口
+6. 1路双座USB母座接口：提供转接5V电源
+7. 2路串口接口： usart4  uart5
+8. 一个usb串口：采用ft232 usb 串口芯片  usart4，可usb线升级固件和通信
+9. 1个swd程序烧写接口
+10. 1个蓝牙
 

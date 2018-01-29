@@ -9,7 +9,7 @@ wget https://raw.githubusercontent.com/chujitaozi/Scripts/master/ros/indigo_inst
 sh indigo_install.sh
 ```
 其中可能需要管理员密码，安装结束后，关闭终端。
-测试一下，在终端中运行：
+测试一下，在终端中分别运行：
 >roscore
 
 和
@@ -31,4 +31,4 @@ sh install.sh
 >roslaunch handsfree_hw handsfree_hw.launch
 
 ![handsfree_hw_node](/images/Tutorial/7/7.1/1_hf_robot_node.png)
-如果如上图显示，则说明连接成功，如果出现timeout，请参考[常见问题](/doc/....)
+如果如上图显示，则说明连接成功，如果出现err或timeout，请参考[常见问题](/docs/FAQ/solution-of-handsfree-hw-error.html)

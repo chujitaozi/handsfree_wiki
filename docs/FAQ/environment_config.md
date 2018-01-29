@@ -2,13 +2,13 @@
 本节介绍如何在Ubuntu 14.04上安装ros并配置HandsFree程序
 
 # 安装ROS
-HandsFree支持ROS的indigo版本和Kinetic，在14.04上只支持indigo，可以参考[官方安装教程](http://wiki.ros.org/indigo/Installation/Ubuntu)，也可以下载我们的脚本进行安装：
+HandsFree支持ROS的indigo版本和Kinetic，**ubuntu14.04上只支持indigo，ubuntu16.04上只支持kinetic**，可以参考[ROS indigo官方安装教程](http://wiki.ros.org/indigo/Installation/Ubuntu)，也可以下载我们的脚本进行安装：
 ```
 cd ~
 wget https://raw.githubusercontent.com/chujitaozi/Scripts/master/ros/indigo_install.sh
 sh indigo_install.sh
 ```
-其中可能需要管理员密码，安装结束后，关闭终端。  
+其中可能需要管理员密码，安装结束后，关闭终端。
 测试一下，在终端中运行：
 >roscore
 

@@ -18,7 +18,7 @@
     * [简单使用](docs/Getting_Started/test_robot.md)
 * [初级教程](docs/Tutorial/README.md)
     * [准备开始](docs/Tutorial/1.1-Getting-Started.md)	
-    * [第一个机器人实验](docs/Tutorial/1.2-First-Experiment.md)
+    * [遥控机器人](docs/Tutorial/1.2-First-Experiment.md)
     * [雷达建图](docs/Tutorial/2.1-Mapping.md)
     * [自主导航](docs/Tutorial/2.1-Navigation.md)
     * [RGBD摄像头实验](docs/Tutorial/2.2-RGBD-Test.md)

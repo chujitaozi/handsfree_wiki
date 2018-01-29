@@ -1,5 +1,5 @@
 # 机器人安装详细步骤
-此部分介绍发货清单,主要介绍机械的详细安装说明及部分零件照片。   
+此部分主要介绍机械的详细安装说明及部分零件照片。   
 
 直达车：
 
@@ -439,4 +439,19 @@ Stone上多处使用了法兰，此处以顶板上法兰为例介绍安装方法
 ![Alt text](/images/Mechanical/giraffe/wiki/giraffe_small_laserboard.jpg)
 
 # 附录:零件照片
+
+## Jlink及配套
+![Jlink](/images/FAQ/Assemble_details/Jlink.jpg)
+
+## USB转串口及配套
+![USB转串口](/images/FAQ/Assemble_details/USB-to-serial-port.jpg)
+
+## 急停开关
+![急停](/images/FAQ/Assemble_details/Sudden-stop-switch.jpg)
+
+## 雷达
+![雷达](/images/FAQ/Assemble_details/lidar.jpg)
+
+## 工控机
+![工控机](/images/FAQ/Assemble_details/IPC.jpg)
 

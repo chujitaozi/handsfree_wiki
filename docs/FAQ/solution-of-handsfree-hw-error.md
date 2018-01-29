@@ -1,4 +1,9 @@
 ## 运行roslaunch handsfree_hw handsfree_hw.launch出现问题的解决方案
+请仔细查看错误原因：  
+
+* config file can't be opened, check your system 请参考可能原因四
+* Failed to open the serial port 请参考可能原因二
+* time out 请参考可能原因一和可能原因三
 
 ---
 

@@ -1,3 +1,4 @@
+# 如何配置环境
 本节介绍如何在Ubuntu 14.04上安装ros并配置HandsFree程序
 
 # 安装ROS

@@ -32,7 +32,7 @@ ROBOT_MOTOR4 ?= motor_interface_4
 - ###更改电机到板子上的接口
 
 当我们如上述在makefile文件中修改了电机的接口后，我们只需要将电机一接到板子上的电机接口三上即可。
-![Alt text](/images/Hardware/OpenRE_Board/OpenRE_Board_Overview.jpg)
+![Alt text](/images/Hardware/OpenRE_Board/OpenRE_Board_Resource.jpg)
 control_unit_v2板如上图所示，电机接口在图右的4,5,8,9接口。
-![Alt text](/images/Hardware/OpenRE_Board/OpenRE_Board_Mini_Overview.jpg)
+![Alt text](/images/Hardware/OpenRE_Board/OpenRE_Board_Mini_Resource.jpg)
 control_unit_mini板如上图所示，电机接口在图右的7,8,9,10接口。

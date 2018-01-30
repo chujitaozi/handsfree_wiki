@@ -20,5 +20,5 @@ HandsFree 在中型及以上的移动平台上采用集成化的供电方案，�
 6. HandsFree自带的设备都将支持电源分配板。
 7. 购买HandsFree平台将附赠电源分配板的转接线, 用户可以方便的给常用设备供电, 比如PC，TK1,TX1/2等。
 
-![Power_Manager_Overview](/images/Hardware/HandsFree_Power_Manager/Power_Manager_Overview.jpg)
+![Power_Manager_Resource](/images/Hardware/HandsFree_Power_Manager/Power_Manager_Resource.jpg)
 

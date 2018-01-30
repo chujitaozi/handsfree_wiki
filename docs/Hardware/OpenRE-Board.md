@@ -15,7 +15,7 @@ OpenRE Board 控制器是在第一代主控基础上发展而来一款多用控�
 ![OpenRE_Board](/images/Hardware/OpenRE_Board/OpenRE_Board.jpg) 
 
 ### 板载资源
-![OpenRE_Board_Overview](/images/Hardware/OpenRE_Board/OpenRE_Board_Overview.jpg) 
+![OpenRE_Board_Resource](/images/Hardware/OpenRE_Board/OpenRE_Board_Resource.jpg) 
 
 ### 关键特征
 1.	168MHZ  STM32F407  Cortex M4
@@ -79,7 +79,7 @@ OpenRE Board Mini 控制器支持12V电源输入，同时允许转接电源，�
 ![OpenRE_Board_Mini](/images/Hardware/OpenRE_Board/OpenRE_Board_Mini.jpg) 
 
 ### 板载资源
-![OpenRE_Board_Mini_Overview](/images/Hardware/OpenRE_Board/OpenRE_Board_Mini_Overview.jpg) 
+![OpenRE_Board_Mini_Resource](/images/Hardware/OpenRE_Board/OpenRE_Board_Mini_Resource.jpg) 
 
 ### 板载资源
 1. STM32F103芯片

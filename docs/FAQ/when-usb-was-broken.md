@@ -3,7 +3,7 @@ OpenRE的灵活性之一体现在对硬件资源的快速简单配置。我们�
 
 具体步骤如下：
 
-- ###更改makefile
+###更改makefile
 
 ####如果使用的是control_unit_v2：
 
@@ -78,7 +78,7 @@ endif
 
 ----------------------------------
 
-- ###连接USB转ttl转接板
+###连接USB转ttl转接板
 
 当我们要让电脑和串口通信时，我们需要接上一个USB转TTL转接板进行通信，下面以我们售卖的USB转TTL转接板为例进行讲解。
 ![Alt text](/images/Hardware/HandsFree_Module/USB_TTL.jpg)

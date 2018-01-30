@@ -1,5 +1,5 @@
 
-# RGBD SLAM v2
+# RGBD SLAM v2实验
 
 这次跑得是视觉SLAM的经典程序:RGBD SLAM V2,本实验是一个比较经典的实验,可以建成一个稠密三维点云。所用摄像头是Xtion 2;   
 结合半闲居士的SLAM实战和HandsFree的机器人实现。[原文链接](http://www.cnblogs.com/gaoxiang12/p/4462518.html)
@@ -30,14 +30,14 @@ rosdep install rgbdslam
 catkin_make
 ```
 
-# 测试程序
+## 测试程序
 使用下面命令测试rgbdslam是否安装成功：
 >roslaunch rgbdslam rgbdslam.launch  
 
 ![RGBDSLAM GUI](/images/Tutorial/RGBDSLAM_v2/rgbdslam.jpg)
 
 如果程序运行成功，则可以开始进行第三步，三维建图实验。
-# 运行程序
+## 运行程序
 直接roslaunch官方包中的launch是不行的,图片信息和没有对应上,还有摄像头的某个服务没有开启,rgbdslam这个节点接受不到照片信息。   
 所以我们对文件进行了改动,并放在了handsfree_bringup中,所以,请先启动摄像头
 >roslaunch handsfree_bringup openni_slam.launch   

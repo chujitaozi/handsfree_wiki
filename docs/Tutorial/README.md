@@ -1,16 +1,18 @@
-# Tutorial
+# 初级教程
+本节教程旨在帮助用户成功地安装、使用和开发HandsFree机器人。机器人上主要用到的软件是基于ROS的，请访问[www.ros.org](www.ros.org)了解ROS。  
 
-本章介绍HandsFree机器人的初级教程,主要包括了
+## 教程简介
+本章将介绍HandsFree机器人的初级教程,主要包括了
 
-* [**准备开始**](/docs/Tutorial/1.1-Getting-Started.md),这部分我们将介绍如何利用局域网,使用自己的电脑对机器人进行通信.
-* [**第一个机器人实验**](/docs/Tutorial/1.2-First-Experiment.md),先前我们介绍了如何使用遥控机器人,本节介绍了如何使用自己的电脑或者XBOX遥控器对机器人进行控制.
-* [**雷达建图**](/docs/Tutorial/2.1-Mapping.md),本节演示了如何使用雷达进行建图,这是导航部分的基础.
-* [**自主导航**](/docs/Tutorial/2.1-Navigation.md),本节利用上一节所建地图,进行了自主导航的实验.
-* [**RGBD摄像头实验**](/docs/Tutorial/2.2-RGBD-Test.md),本节介绍了RGBD摄像头的环境配置和图片获取的方法,并且介绍了一种使用RGBD模拟二维雷达建图的方法.
-* [**视觉实验**](/docs/Tutorial/2.3-Vision-Test.md),在上一节介绍了摄像头的简单使用,这一节我们将利用RGBD和计算机视觉方法实现机器人对二维码的跟随.
-* [**云台跟踪实验**](/docs/Tutorial/2.5-Head-Tracking.md),机器人的头部是由二自由度云台构成，Xtion置于云台上，可以进行俯仰和偏转运动。本节是结合计算机视觉,实现云台对二维码的跟踪.
-* [**仿真实验**](/docs/Tutorial/2.4-Simulation.md),Gazebo是一个功能十分强大的三维仿真软件，与ROS可以无缝连接进行机器人仿真。我们提供了HandsFree机器人在Gazebo中的模型,本节介绍了如何简单使用Gazebo. 
-* [**RGBDSLAM v2实验**](/docs/Tutorial/RGBDSLAMV2.md),rgbdslam v2是2014年提出的一种优秀的slam算法,它整合了SLAM领域里的各种技术：图像特征、回环检测、点云、图优化等等，是一个非常全面且优秀的程序。我们将在这部分介绍rgbdslam v2在handsfree机器人上的使用.
+* [**准备开始**](/docs/Tutorial/1.1-Getting-Started.md),这部分我们将介绍如何使用机器人端工控机（或PC）对机器人进行控制。通过控制机器人的测试，我们可以验证工控机的ROS环境和HandsFree的环境是否配置正确、机器人嵌入式系统是否工作正常、机器人嵌入式系统层和PC端ROS层的通讯是否正常等问题。
+* [**遥控机器人**](/docs/Tutorial/1.2-First-Experiment.md),先前我们介绍了如何使用工控机控制机器人,本节将介绍了如何使用自己的电脑对机器人进行遥控。通过使用远程计算机对机器人进行控制，我们可以验证远程计算机ROS环境和HandsFree的环境是否配置正确，机器人端工控机和远程计算机通讯是否正常等问题。
+* [**雷达建图**](/docs/Tutorial/2.1-Mapping.md),本节演示了如何使用雷达进行同步建图与定位，又称SLAM。SLAM问题可以描述为：机器人在未知环境中从一个未知位置开始移动,在移动过程中根据位置估计和地图进行自身定位,同时在自身定位的基础上建造增量式地图。这是导航部分的基础。
+* [**自主导航**](/docs/Tutorial/2.1-Navigation.md),本节利用上一节所建地图,进行了自主导航的实验。自主导航系统是机器人的重要组成部分，它能够提供给机器人正确的路径规划和姿态信息，从而使机器人能在一定的环境进行工作，完成指定任务，也是机器人实现路径规划，避障避碰，智能自主控制的基础。
+* [**RGBD摄像头实验**](/docs/Tutorial/2.2-RGBD-Test.md),本节介绍了RGBD摄像头的环境配置和图片信息实时获取的方法,并且介绍了一种使用RGBD模拟二维雷达进行同步定位与建图的方法。
+* [**视觉实验**](/docs/Tutorial/2.3-Vision-Test.md),在上一节介绍了摄像头的简单使用,这一节我们将利用RGBD和计算机视觉方法实现机器人对二维码的跟随。
+* [**云台跟踪实验**](/docs/Tutorial/2.5-Head-Tracking.md),机器人的头部是由二自由度云台构成，Xtion置于云台上，可以进行俯仰和偏转运动。本节是结合计算机视觉,实现云台对二维码的跟踪。
+* [**仿真实验**](/docs/Tutorial/2.4-Simulation.md),Gazebo是一个功能十分强大的三维仿真软件，与ROS可以无缝连接进行机器人仿真。我们提供了HandsFree机器人在Gazebo中的模型,本节介绍了如何简单使用Gazebo。
+* [**RGBDSLAM v2实验**](/docs/Tutorial/RGBDSLAMV2.md),rgbdslam v2是2014年提出的一种优秀的slam算法,它整合了SLAM领域里的各种技术：图像特征、回环检测、点云、图优化等等，是一个非常全面且优秀的程序。我们将在这部分介绍rgbdslam v2在handsfree机器人上的使用。
 * [**ORB_SLAM2 实验**](/docs/Tutorial/ORBSLAM2.md),orb-slam是15年出的一个单目SLAM,是一个比较优秀的系统,后来作者又推出了orb-slam2,在原来基础上增加了双目和rgbd的接口.我们将介绍orb-slam2在HandsFree在机器人上的使用.
 
 

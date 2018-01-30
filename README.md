@@ -105,10 +105,10 @@ HandsFree 是一个面向机器人研究、开发的开源软硬件系统。她�
 
 机器人参数| 值
 ------------ | -------------
-净重(kg) | 15 (不含机械臂)
+净重(kg) | 20 (不含机械臂)
 整体尺寸(mm) | 420x380x1200
-负载(kg) | 50
-最大速度(m/s) | 1.2
+负载(kg) | 65
+最大速度(m/s) | 2
 电池容量(mAh) | 24V 20000
 续航时间(h) | 12
 充电时间(h) | 6
@@ -118,7 +118,6 @@ HandsFree 是一个面向机器人研究、开发的开源软硬件系统。她�
 内部传感器 | 集成编码器 , 陀螺仪 , 磁力计 , 气压计 , 可扩展超声/红外传感器 
 通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1
 支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2 , HandsFree机械臂
-
 
 
 ### [点击购买 Giraffe](https://item.taobao.com/item.htm?spm=a1z10.5-c.w4002-13224047689.15.2bba683f0Wd2um&id=556483991125)　　  　　　　　 　[Giraffe 详细信息](/docs/Products/Giraffe.md) 

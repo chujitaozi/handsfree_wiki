@@ -47,6 +47,7 @@
     * [机器人学习规划](docs/Courses/Robotics-Learning.md)
 * [常见问题解决方法](docs/FAQ/README.md)
     * [把电路板USB插坏了怎么办？](docs/FAQ/when-usb-was-broken.md)
+    * [把电机接口插坏了怎么办？](docs/FAQ/when-motor-interface-was-broken.md)
     * [如何获取工控机IP地址？](docs/FAQ/how-to-get-IP.md)
     * [handsfree_hw节点出现错误](docs/FAQ/solution-of-handsfree-hw-error.md)
     * [OpenRE编译和烧录报错](docs/FAQ/OpenRE-make&make-burn-error.md)

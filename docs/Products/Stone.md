@@ -1,33 +1,16 @@
-本节介绍Stone机器人的相关参数及Demo.
-
 # Stone机器人
-
-<div align=center><img src="/images/Mechanical/stone/wiki/stone_small_render.jpg"/></div>
-
 ## 概述
+![Alt text](/images/Products/Stone/Stone_V3.jpg)
+
 Stone是一款采用前万向后双驱动轮底盘布局的智能车平台。其整机结构采用平板桁架式透明化设计，外形简单又不失机械美感。Stone可搭载Dobot1、Dobot m1等小型机械臂，能支持多种激光雷达，TX1、TK1、树莓派等主流控制器。其配备高度可调的两轴云台，兼容多款RGBD摄像头和单、双目摄像头。
 
 ## 外形及性能参数
 
-机器人参数| 值
------------- | -------------
-净重(kg) | 8
-整体尺寸(mm) | 400x1080
-负载(kg) | 15
-最大速度(m/s) | 1.2
-电池容量(mAh) | 12V 16000
-续航时间(h) | 12
-充电时间(h) | 5
-驱动方式 | 两轮差分驱动
-电源扩展 | 19V/3A x 3 ,  12V/10A x 5 , 12V/3A x 4 , USB5V/2A x 2 , 一路急停12V/10A
-电机控制接口数量 | 4
-内部传感器 | 集成编码器 , 陀螺仪 , 磁力计 , 气压计 , 可扩展超声/红外传感器 
-通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1 
-支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2
+![Alt text](/images/Products/Stone/Stone_V3_Parameter.jpg)
 
 ## 设计特点
 
-<div align=center><img src="/images/Mechanical/stone/Stone_V2.0_turn_around_good.gif"/></div>
+![Alt text](/images/Products/Stone/Stone_V3_Resource.jpg)
 
 前置万向轮的两轮驱动方式让车体拥有优越的稳定性；一对775电机加64mm铝合金轮保证了强大前行动力；三层高强玻纤板加8根铝柱组建的骨架在保证承力可靠性的同时以一种简洁明快的方式将各部件一无保留地呈现给使用者。从此，安装、接线、测试、检修，轻车熟路，一目了然。毫无意外，Stone能够支持多种激光雷达，多种控制器（Tk1、Tx1、树莓派等），也可以支持小型机械臂，如Dobot1、Dobot m1。另外，Stone高置的云台能够兼容多款RGBD摄像头和单、双目摄像头，并能提供270度的周向旋转角和180度的俯仰旋转角，让世界一览无余。
 

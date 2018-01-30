@@ -1,34 +1,16 @@
-本节介绍Girafee机器人的相关参数及Demo.
-
 # Giraffe机器人
-
-![Alt text](/images/Mechanical/giraffe/good/Giraffe_big_render1.JPG)
-![Alt text](/images/Mechanical/giraffe/good/Giraffe_big_render2.jpg)
-
 ## 概述
+![Alt text](/images/Products/Giraffe/Giraffe_V3.jpg)
+
 Giraffe是一款采用前万向后双驱动轮底盘布局的智能车平台。其整机结构采用平板桁架式封闭式设计；侧板采用带磁吸可开合设计；传动系统采用同步带传动。Giraffe可同时支持一前一后两个激光雷达，兼容TX1、TK1、树莓派等主流控制器，配备高度可调、能兼容多款RGBD摄像头和单、双目摄像头的两轴云台。Giraffe可搭载HF Arm1等中型机械臂（总量15Kg左右），具有高达30Kg的承载能力。
 
 ## 外形及性能参数
 
-机器人参数| 值
------------- | -------------
-净重(kg) | 15 (不含机械臂)
-整体尺寸(mm) | 420x380x1200
-负载(kg) | 50
-最大速度(m/s) | 1.2
-电池容量(mAh) | 24V 20000
-续航时间(h) | 12
-充电时间(h) | 6
-驱动方式 | 两轮差分驱动
-电源扩展 | 19V/3A x 3 , 24V/10A x 5 , 12V/3A x 4 , USB5V/2A x 2 , 一路急停24V/10A
-电机控制接口数量 | 4
-内部传感器 | 集成编码器 , 陀螺仪 , 磁力计 , 气压计 , 可扩展超声/红外传感器 
-通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1
-支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx , Xtion1/2 , Kinect1/2，ZED Stereo Camera , TK1，TX1/2 , 树莓派 , Dobot机械臂 1/2 , HandsFree机械臂
+![Alt text](/images/Products/Giraffe/Giraffe_V3_Parameter.jpg)
 
 ## 设计特点
 
-<div align=center><img  src="/images/Mechanical/giraffe/HF_Giraffe_turn_around_medium.gif"/></div>
+![Alt text](/images/Products/Giraffe/Giraffe_V3_Resource.jpg)
 
 全身通体的黑色让Giraffe像黑衣武士一样暗暗地透露出一股邪酷。全封闭式的结构让其有一种不可言状的神秘。不过不要担心，Giraffe的左右侧板和后侧板皆采用了门式的开合结构。门侧采用了磁吸设计，让门的开合变得随意起来，从而让用户能轻易地走进这个黑武士的“内心”，感受其精细的内在。传动系统中同步带的传动方式使电机能精确地将转动位移传递给轮轴，也优化了底盘承力形式，使Giraffe拥有多达30公斤的载重能力。Giraffe能够同时支持前后两个激光雷达，同时能兼容多种控制器（Tk1、Tx1、树莓派等）。健壮的身板使其能够搭载大、中型机械臂，从而使其更具实用能力。高高立起地云台是它不屈的头颅，也给它赢得了“Giraffe（长颈鹿）”这一名号。这个“头颅”上可以支持多款RGBD摄像头和单、双目摄像头，使其能轻易而精确扑捉到自己“指尖”的动作，完成主人交给它的各项指令。
 

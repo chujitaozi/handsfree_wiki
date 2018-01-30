@@ -1,34 +1,16 @@
-本节介绍Mini机器人的相关参数及Demo.
-
-
 # Mini机器人
-
-<div align=center><img src="/images/Mechanical/mini/wiki/mini_small_render.jpg"/></div>
-
 ## 概述
+![Alt text](/images/Products/Mini/Mini_V2.jpg)
+
 Mini是一款采用前万向后双驱动轮底盘布局的小型机器人。其整机结构采用平板桁架式透明化设计，外形简约大方，能支持多种激光雷达，TK1、树莓派等主流控制器，可搭载assustion、Kinect1 、Kinect2等深度摄像头。Mini体型小、功能强大、性价比高，非常适合入门者开发研究和多机集群应用研究。
 
 ## 外形及性能参数
 
-机器人参数| 值
------------- | -------------
-净重(kg) | 2
-整体尺寸(mm) | 340x230
-负载(kg) | 6
-最大速度(m/s) | 1.2
-电池容量(mAh) | 12V 5200
-续航时间(h) | 8
-充电时间(h) | 5
-驱动方式 | 两轮差分驱动
-电源扩展 | 12V/3A x 2 ,  USB5V/2A x 2
-电机控制接口数量 | 4
-内部传感器 | 集成编码器，陀螺仪,可扩展超声/红外传感器
-通信扩展接口 | USB-USART x 1 , USART x 2, Bluetooth x 1 , CAN x 1 , SPI x 1 
-支持安装的设备 | RplidarA1/A2，Hokuyo URG-04L/UTM-30Lx，Xtion1/2，Kinect1/2，TK1，树莓派
+![Alt text](/images/Products/Mini/Mini_V2_Parameter.jpg)
 
 ## 设计特点
 
-<div align=center><img src="/images/Mechanical/mini/HF_mini_turn_around_medium.gif"/></div>
+![Alt text](/images/Products/Mini/Mini_V2_Resource.jpg)
 
 23cm直径机身，四层黑色哑光玻纤板（亚克力板），9根10mm直径高强铝柱，12v驱动775电机，mini带来的不仅是体型上的小巧玲珑和机械结构的高可靠度，还有出色的动力学性能和别具一格的机械美感。透明化的结构设计使用户的安装、接线、调试、检修顺手简单。麻雀虽小，五脏俱全，Mini小小的体型上能同时支持多种传感器和主流控制器，能运行HandsFree团队开发的任何软件，是初学者入门及多机集群研究、应用的不二选择。
 

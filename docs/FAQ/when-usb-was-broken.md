@@ -2,8 +2,12 @@
 OpenRE的灵活性之一体现在对硬件资源的快速简单配置。我们的主控板除了串口一作为HFLink通信的默认端口外还预留了其他的串口。如果串口USB插拔损坏，则表示串口一的硬件损坏，此时可以转而使用其他未被占用的预留串口。
 
 具体步骤如下：
-### 如果使用的是control_unit_v2：
-1.进入文件夹.../OpenRE/0_Project/makefile路径下，打开*system_para.mk*文件。
+
+- ###更改makefile
+
+####如果使用的是control_unit_v2：
+
+1.进入文件夹.../OpenRE/0_Project/makefile路径下，打开*configuration.mk*文件。
 
 2.找到如下代码：
 >ifeq "$(strip $(BOARD_TYPE))" "control_unit_v2"
@@ -23,6 +27,7 @@ endif
 *"PC_INTERFACE"*就是HFLink，也即上下位机通信使用的串口号，目前也是串口1。
 
 串口USB插拔损坏，表示串口一现在无法正常使用。只需要在这里将
+
 >DEBUG_PRINTF_INTERFACE ?= usart_interface_1
 
 >PC_INTERFACE ?= usart_interface_1
@@ -34,13 +39,9 @@ endif
 >PC_INTERFACE ?= usart_interface_6
 
 即可。
-#### 注意：串口2被SBUS占用，V2主控板上只剩下串口6空闲。
+##### 注意：串口2被SBUS占用，V2主控板上只剩下串口6空闲。
 
-3.将USB的一端连接电脑，另一端，用我们淘宝店售卖的USB转TTL转接板接到V2主控板正面的uart6端口上。此时即可正常通信
-
------------------------------------------
-
-### 如果使用的是control_unit_mini：
+#### 如果使用的是control_unit_mini：
 1.进入文件夹.../OpenRE/0_Project/makefile路径下，打开*system_para.mk*文件。
 
 2.找到如下代码：
@@ -74,3 +75,11 @@ endif
 即可。
 
 3.将USB的一端连接电脑，另一端，用我们淘宝店售卖的USB转TTL转接板接到Mini主控板正面的usart4端口上。此时即可正常通信。
+
+----------------------------------
+
+- ###连接USB转ttl转接板
+
+当我们要让电脑和串口通信时，我们需要接上一个USB转TTL转接板进行通信，下面以我们售卖的USB转TTL转接板为例进行讲解。
+![Alt text](/images/Hardware/HandsFree_Module/USB_TTL.jpg)
+当我们改变了makefile文件后，看我们更改为哪个接口，就用5P molex端子线连接到板子对应的接口。以我们上面所讲的示例来看，control_unit_v2需要接到uart6端口，control_unit_mini需要接到usart4端口。

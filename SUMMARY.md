@@ -46,5 +46,6 @@
     * [机器人学习规划](docs/Courses/Robotics-Learning.md)
 * [常见问题解决方法](docs/FAQ/README.md)
     * [把电路板USB插坏了怎么办？](docs/FAQ/when-usb-was-broken.md)
+    * [把电机接口插坏了怎么办？](docs/FAQ/when-motor-interface-was-broken.md)
     * [机器人安装详细步骤](docs/FAQ/Assemble_details.md)
 

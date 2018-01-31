@@ -32,7 +32,9 @@ catkin_make
 
 ## 测试程序
 使用下面命令测试rgbdslam是否安装成功：
->roslaunch rgbdslam rgbdslam.launch  
+```
+roslaunch rgbdslam rgbdslam.launch  
+```
 
 ![RGBDSLAM GUI](/images/Tutorial/RGBDSLAM_v2/rgbdslam.jpg)
 
@@ -40,12 +42,16 @@ catkin_make
 ## 运行程序
 直接roslaunch官方包中的launch是不行的,图片信息和没有对应上,还有摄像头的某个服务没有开启,rgbdslam这个节点接受不到照片信息。   
 所以我们对文件进行了改动,并放在了handsfree_bringup中,所以,请先启动摄像头
->roslaunch handsfree_bringup openni_slam.launch   
+```
+roslaunch handsfree_bringup openni_slam.launch   
+```
 
 然后启动RGBDSLAM v2的GUI界面
->roslaunch handsfree_bringup rgbdslam_v2.launch
+```
+roslaunch handsfree_bringup rgbdslam_v2.launch
+```
 
 ![RGBDSLAM GUI](/images/Tutorial/RGBDSLAM_v2/rgbdslam_v2.jpg)
 
 如果程序如上图所示，则说明程序运行良好，由于比较消耗资源，电脑可能会变卡。   
-可以摁空格暂停查看点云,也可以在全屏之后的上端菜单栏选择需要保存的信息.
+可以摁空格暂停查看点云,也可以在全屏之后的上端菜单栏选择需要保存的信息。

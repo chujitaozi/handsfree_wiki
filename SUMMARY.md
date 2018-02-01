@@ -49,5 +49,5 @@
     * [handsfree_hw节点出现错误](docs/FAQ/solution-of-handsfree-hw-error.md)
     * [OpenRE编译和烧录报错](docs/FAQ/OpenRE-make&make-burn-error.md)
     * [机器人滴滴报警怎么办](docs/FAQ/reason-for-alarming.md)
-    * [机器人安装详细步骤](docs/FAQ/Assemble_details.md)
     * [如何配置环境](docs/FAQ/environment_config.md)
+    * [HandsFree系统镜像](docs/FAQ/how-to-use-mirror.md)

@@ -1,5 +1,5 @@
 # 初级教程
-本节教程旨在帮助用户成功地安装、使用和开发HandsFree机器人。机器人上主要用到的软件是基于ROS的，请访问[www.ros.org](www.ros.org)了解ROS。  
+本节教程旨在帮助用户成功地安装、使用和开发HandsFree机器人。机器人上主要用到的软件是基于ROS的，请访问[www.ros.org](http://www.ros.org/)了解ROS。  
 
 ## 教程简介
 本章将介绍HandsFree机器人的初级教程,主要包括了

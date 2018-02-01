@@ -36,10 +36,7 @@
 ### PIL 介绍
 西北工业大学布树辉教授的智能系统实验室开发的跨平台软件库 [PIL](https://github.com/HANDS-FREE/PIL )，支持多线程、时钟、插件、网络、常用硬件抽象、计算机视觉、GUI等功能。布老师是我人生中最敬佩导师，他不仅有着超强的工程和科研能力，而且和蔼可亲，亦师亦友，手把手教，更难得的是，他比学生们还要努力，总是走在团队的最前面带着每个学生奋斗，喜欢机器人或者无人机领域的伙伴们可以关注一下他的[个人网站](http://www.adv-ci.com/blog/)，如果想读他研究生或者博士的伙伴也可以来联系群主。   
 
-
-## 开源机器人项目 Hands Free 综合介绍
-
-> ppt source file download :   [HandsFree_Introduction](https://pan.baidu.com/s/1nuSvs7Z#list/path=%2FHANDSFREE%2FHands_Free_Release%2F0_Documentation%2Fdocumentation&parentPath=%2FHANDSFREE)     
+##  HandsFree开源机器人项目综合介绍
 
 ![Alt text](/images/About/HandsFree_Introduction/1.jpg)
 ![Alt text](/images/About/HandsFree_Introduction/2.jpg)
@@ -73,5 +70,6 @@
 ![Alt text](/images/About/HandsFree_Introduction/30.jpg)
 ![Alt text](/images/About/HandsFree_Introduction/31.jpg)
 ![Alt text](/images/About/HandsFree_Introduction/32.jpg)
-
+![Alt text](/images/About/HandsFree_Introduction/33.jpg)
+![Alt text](/images/About/HandsFree_Introduction/34.jpg)
 

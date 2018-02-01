@@ -26,8 +26,9 @@ HandsFree Team 是一个乐于奉献于机器人事业的团队，我们希望�
 ## 内容：  
 HandsFree 是一个面向机器人研究、开发的开源软硬件系统。她有完备与科学的框架， 以优秀的嵌入式系统框架为核心， 精良的电路、 机械设计为支撑，帮您快速实现多种形态的机器人。本系统包含机器人导航，SLAM，计算机视觉等模块， 并拥有自己上层软件和调试系统。 她支持国外其他的开源项目， 如 ROS,MPRT, PIXHAWK 等，这一切都为您带来了无比的便捷和快乐！
 
-![Alt text](/images/About/HandsFree_Introduction/HandsFree_Introduction_2016_4_2_001.jpg)
-![Alt text](/images/About/HandsFree_Introduction/HandsFree_Introduction_2016_4_2_002.jpg)
+![Alt text](/images/About/HandsFree_Introduction/4.jpg)
+![Alt text](/images/About/HandsFree_Introduction/3.jpg)
+![Alt text](/images/About/HandsFree_Introduction/13.jpg)
 
 ##  现状： 
 HandsFree 是一个机器人开源项目，涵盖了和机器人相关的许多方面。我们面向开源的主要任务是搭建一个机器人系统， 并且尽可能使用各种工具来实现目的。       
@@ -44,7 +45,7 @@ HandsFree 人员由 **HandsFree Team** ， **HandsFree Community** 组成。
 
 > * 西安酷科迪乐智能科技有限公司
 
-HandsFree的核心团队聚集了一批有实力的机器人开发与研究者，他们目前主要来源于西北工业大学的舞蹈机器人基地和智能系统实验室。团队的成员，都具有两年以上的一线机器人开发经历。大家在一起本着开源的精神和发展机器人事业的共同理想，探索HandsFree的发展方向，维护HandsFree社区的良好运转。
+HandsFree团队聚集了一批有实力的机器人开发与研究者，他们目前主要来源于西北工业大学的舞蹈机器人基地和智能系统实验室。团队的成员，都具有三年以上的机器人相关领域的研究经历，涵盖了机器人学，机器人系统和控制，视觉SLAM，机器学习，目标跟踪等。八个技术核心成员都有五年以上的一线工程经验，大家在一起本着开源的精神和发展机器人事业的共同理想，探索HandsFree的发展方向，维护HandsFree社区的良好运转。
 
 ![HandsFree Team](/images/About/HandsFreeTeam.jpg)
 
@@ -61,3 +62,5 @@ HandsFree的核心团队聚集了一批有实力的机器人开发与研究者�
 西北工业大学智能系统实验室,主要从事视觉SLAM, 大场景三维重建,场景解析，目标检测，三维形状分析，环境变化检测等研究,详细信息请看 : [PILab](http://www.adv-ci.com/blog/members/)
 
 ![PILab](/images/About/2016_PI_Lab_s-1024x573.jpg)
+
+

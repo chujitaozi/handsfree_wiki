@@ -58,19 +58,6 @@ wlan0     Link encap:以太网  硬件地址 00:1e:64:f0:23:37
 找到需要查看IP的设备，点击进去，就可以看到IP啦
 ![IP](/images/FAQ/how-to-get-IP/get_ip.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
 
 ### 方案三：手机上查看

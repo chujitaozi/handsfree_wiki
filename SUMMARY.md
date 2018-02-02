@@ -2,7 +2,7 @@
 
 * [贡献文章](contribute.md)
 * [综合介绍](README.md)
-* [关于](README.md)
+* [关于](docs/About/README.md)
     * [项目介绍](docs/About/Project-Overview.md)
     * [关于我们](docs/About/About-US.md)
     * [为什么要有HandsFree](docs/About/Why-HandsFree.md)

@@ -1,5 +1,10 @@
 # 如何配置环境
-本节介绍如何在Ubuntu 14.04上安装ros并配置HandsFree程序
+本节介绍如何在Ubuntu 14.04上安装ros并配置HandsFree程序   
+直达车：  
+
+* [安装ROS](/docs/FAQ/environment_config.html#安装ros)
+* [配置HandsFree环境](/docs/FAQ/environment_config.html#配置handsfree环境)
+* [配置Kinect](/docs/FAQ/environment_config.html#配置kinect-1)
 
 # 安装ROS
 HandsFree支持ROS的indigo版本和Kinetic，**ubuntu14.04上只支持indigo，ubuntu16.04上只支持kinetic**，可以参考[ROS indigo官方安装教程](http://wiki.ros.org/indigo/Installation/Ubuntu)，也可以下载我们的脚本进行安装：
@@ -62,3 +67,12 @@ process[robot_state_publisher-4]: started with pid [9591]
 ```
 
 如果如上图显示，则说明连接成功，如果出现err或timeout，请参考[常见问题](/docs/FAQ/solution-of-handsfree-hw-error.html)
+
+# 配置Kinect 1
+mini机器人使用的摄像头是Kinect 1代，本小节介绍如何配置Kinect 1。
+
+
+
+
+
+

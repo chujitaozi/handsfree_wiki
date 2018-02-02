@@ -50,3 +50,4 @@
     * [OpenRE编译和烧录报错](docs/FAQ/OpenRE-make&make-burn-error.md)
     * [机器人滴滴报警怎么办](docs/FAQ/reason-for-alarming.md)
     * [如何配置环境](docs/FAQ/environment_config.md)
+    * [HandsFree系统镜像](docs/FAQ/how-to-use-mirror.md)

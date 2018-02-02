@@ -1,11 +1,10 @@
 
 # RGBD SLAM v2实验
 
-这次跑得是视觉SLAM的经典程序:RGBD SLAM V2,本实验是一个比较经典的实验,可以建成一个稠密三维点云。所用摄像头是Xtion 2;   
-结合半闲居士的SLAM实战和HandsFree的机器人实现。[原文链接](http://www.cnblogs.com/gaoxiang12/p/4462518.html)
+这次跑得是视觉SLAM的经典程序:RGBD SLAM V2,本实验是一个比较经典的实验,可以建成一个稠密三维点云。所用摄像头是Xtion 2。
 
 ## 环境配置
-前提仍然是ubuntu14.04,和高博的不同,我用的是indigo,所以在下载程序的时候,我下载的是indigo版本,也就是在github上选择branch,换成indigo,在[github](https://github.com/felixendres/rgbdslam_v2/tree/indigo)
+前提仍然是ubuntu14.04,ROS用的是indigo,所以在下载程序的时候,我下载的是indigo版本,也就是在github上选择branch,换成indigo,在[github](https://github.com/felixendres/rgbdslam_v2/tree/indigo)
 上查看如何安装,或者直接在终端执行下面的命令:
 
 ```

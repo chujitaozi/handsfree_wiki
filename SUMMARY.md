@@ -2,7 +2,7 @@
 
 * [贡献文章](contribute.md)
 * [综合介绍](README.md)
-* [关于](README.md)
+* [关于](docs/About/README.md)
     * [项目介绍](docs/About/Project-Overview.md)
     * [关于我们](docs/About/About-US.md)
     * [为什么要有HandsFree](docs/About/Why-HandsFree.md)
@@ -49,5 +49,4 @@
     * [handsfree_hw节点出现错误](docs/FAQ/solution-of-handsfree-hw-error.md)
     * [OpenRE编译和烧录报错](docs/FAQ/OpenRE-make&make-burn-error.md)
     * [机器人滴滴报警怎么办](docs/FAQ/reason-for-alarming.md)
-    * [机器人安装详细步骤](docs/FAQ/Assemble_details.md)
     * [如何配置环境](docs/FAQ/environment_config.md)

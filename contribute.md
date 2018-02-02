@@ -1,6 +1,7 @@
 
-HandsFree是一个希望推动国内机器教育的开源项目,在这里诚挚邀请各路大神,补充本Wiki教程.
-作为回报,参与HandsFree教程,根据提交的教程水准,将有机会获得HandsFree赠送的配件,雷达,摄像头,甚至机器人平台喔~
+HandsFree是一个希望推动国内机器教育的开源项目,如果你感兴趣，可以参与该Wiki的教程编写，作为社区回馈,我们会根据提交的教程水准,赠送作者机器人相关配件，书籍，雷达，摄像头，以及HandsFree机器人平台等。 
+
+> 只要提交教程就有礼品喔～。
 
 ## 概述
 
@@ -16,7 +17,5 @@ HandsFree是一个希望推动国内机器教育的开源项目,在这里诚挚�
 
 ## 如何贡献文档
 1. 在Github上fork　作者的HandsFree Wiki源文件 :  [https://github.com/mawenke/handsfree_wiki](https://github.com/mawenke/handsfree_wiki)
-2. 在自己的本地仓库上编辑更改文档后用Github　的Pull Requests功能提交自己的更新给作者．
-
-
+2. 在自己的本地仓库上编辑更改文档后用Github　的Pull Requests功能提交自己的更新给作者的仓库．
 
